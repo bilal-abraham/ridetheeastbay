@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
+import Bikes from './pages/Bikes';
 import Donate from './pages/Donate';
 import About from './pages/About';
 
@@ -10,6 +11,7 @@ const App = () => {
 			<BrowserRouter>
 				<Switch>
 					<Route exact path='/' component={Home} />
+					<Route exact path='/bikes' component={Bikes} />
 					<Route exact path='/donate' component={Donate} />
 					<Route exact path='/about' component={About} />
 					{/* <Route path='/' component={Error404} /> */}

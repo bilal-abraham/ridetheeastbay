@@ -6,4 +6,53 @@
 	flex-direction: column;
 	align-items: center;
 	color: var(--text);
+	background-image: url('../img/homepage-logo.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.homemain_header_wrapper {
+	margin-top: 30vh;
+	font-family: Playfair Display;
+	font-size: 2.75rem;
+	font-style: italic;
+	text-align: center;
+}
+
+.homemain_slogan {
+	margin-top: 12vh;
+	font-size: 1.5rem;
+	font-style: italic;
+}
+
+.homemain_btn_wrapper {
+	margin-top: 5vh;
+	display:flex;
+	flex-direction: row;
+}
+
+.homemain_btn_span {
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+@media only screen and (max-width: 550px) {
+	.homemain_header_wrapper {
+		margin-top: 35vh;
+		font-size: 2.25rem;
+	}
+	.homemain_slogan {
+		margin-top: 12vh;
+		font-size: 1rem;
+	}
+
+	.homemain_btn_wrapper {
+		margin-top: 5vh;
+		font-size: .8rem;
+	}
+
+	.homemain_btn_span {
+		margin-left: .5rem;
+		margin-right: .5rem;
+	}
 }
