@@ -14,8 +14,9 @@ const MobileMenu = () => {
 		<Fragment>
 			<div className='dropdown_container'>
 				<MobileMenuItem route='/about'>About</MobileMenuItem>
-				<MobileMenuItem route='/links'>Links</MobileMenuItem>
-				<MobileMenuItem route='/merch'>Merch</MobileMenuItem>
+				<MobileMenuItem route='/bikes'>Bikes</MobileMenuItem>
+				<MobileMenuItem route='/donate'>Donate</MobileMenuItem>
+				<MobileMenuItem route='/about'>About</MobileMenuItem>
 			</div>
 		</Fragment>
 	);

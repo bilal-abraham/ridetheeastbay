@@ -5,11 +5,11 @@ import Logo from '../img/logo.png';
 import '../styles/NavBar.css';
 
 const NavBar = () => {
-	const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+	const [isMobile, setIsMobile] = useState(window.innerWidth <= 750);
 	const [showDropdown, setShowDropdown] = useState(false);
 	useEffect(() => {
 		window.addEventListener('resize', () => {
-			if (window.innerWidth <= 600) {
+			if (window.innerWidth <= 750) {
 				setIsMobile(true);
 			} else {
 				setIsMobile(false);
@@ -26,7 +26,7 @@ const NavBar = () => {
 							src={Logo}
 							alt='Ride the East Bay Logo'
 						/>
-						<header className='navbar_header'>Ride the East Bay</header>
+						<header className='navbar_header'>Ride The East Bay</header>
 					</Link>
 				</section>
 				{!isMobile && (
@@ -37,13 +37,18 @@ const NavBar = () => {
 							</Link>
 						</li>
 						<li className='navbar_element'>
-							<Link className='navbar_link' to='/about'>
-								About
+							<Link className='navbar_link' to='/bikes'>
+								Bikes
 							</Link>
 						</li>
 						<li className='navbar_element'>
-							<Link className='navbar_link' to='/links'>
-								Links
+							<Link className='navbar_link' to='/donate'>
+								Donate
+							</Link>
+						</li>
+						<li className='navbar_element'>
+							<Link className='navbar_link' to='/about'>
+								About
 							</Link>
 						</li>
 					</ul>

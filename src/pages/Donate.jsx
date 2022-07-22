@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 import Footer from '../components/Footer';
-import LinksMain from '../layout/LinksMain';
+import DonateMain from '../layout/DonateMain';
 import NavBar from '../components/NavBar';
 
-const Links = () => {
+const Donate = () => {
 	return (
 		<Fragment>
 			<NavBar />
-			<LinksMain />
+			<DonateMain />
 			<Footer />
 		</Fragment>
 	);
 };
 
-export default Links;
+export default Donate;

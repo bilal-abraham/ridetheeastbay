@@ -2,7 +2,8 @@
 	position: absolute;
 	z-index: 1;
 	top: var(--nav-size);
-	width: 99vw;
+	width: 100vw;
+	height: 89.5vh;
 	background-color: var(--bg);
 	border: 2px solid var(--color);
 	border-radius: 10px;
@@ -15,7 +16,9 @@
 	height: 3.5rem;
 	display: flex;
 	align-items: center;
-	border-radius: 3px;
+	padding-left:5vw;
+	border-bottom: 1px solid var(--color);
+	border-radius: 10px;
 	color: var(--text);
 	text-decoration: none;
 	padding: 1rem;

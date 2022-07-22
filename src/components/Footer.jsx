@@ -55,7 +55,7 @@ const Footer = () => {
 				</section>
 				<hr className='footer_line' />
 				<section className='footer_copyright_section'>
-					<p className='footer_copyright_title'>Bay Takes 2022 ©</p>
+					<p className='footer_copyright_title'>© Ride the East Bay 2022</p>
 				</section>
 			</footer>
 		</Fragment>
