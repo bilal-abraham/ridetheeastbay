@@ -11,21 +11,11 @@ const Footer = () => {
 						<li className='footer_foundon_icons'>
 							<a
 								className='footer_foundon_link'
-								href='https://www.tiktok.com/@baytakes'
+								href='https://www.instagram.com/ridetheeastbay/?igshid=lm061psb2uzw'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								<i className='fab fa-tiktok' />
-							</a>
-						</li>
-						<li className='footer_foundon_icons'>
-							<a
-								className='footer_foundon_link'
-								href='https://www.youtube.com/channel/UClZLb-7v3CEMGp7BmOa50nQ'
-								target='_blank'
-								rel='noopener noreferrer'
-							>
-								<i className='fab fa-youtube' />
+								<i className='fab fa-instagram' />
 							</a>
 						</li>
 						<li className='footer_foundon_icons'>
@@ -33,7 +23,7 @@ const Footer = () => {
 								className='footer_foundon_link'
 								onClick={async () => {
 									await navigator.clipboard.writeText(
-										'283podcast@gmail.com'
+										'ridetheeastbay@gmail.com'
 									);
 									alert('Successfully Copied Email to Clipboard');
 								}}
@@ -44,7 +34,17 @@ const Footer = () => {
 						<li className='footer_foundon_icons'>
 							<a
 								className='footer_foundon_link'
-								href='https://github.com/bilal-abraham/baytakes'
+								href='https://www.linkedin.com/in/bilal-abraham-3140491b8/'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<i className='fab fa-linkedin' />
+							</a>
+						</li>
+						<li className='footer_foundon_icons'>
+							<a
+								className='footer_foundon_link'
+								href='https://github.com/bilal-abraham/ridetheeastbay'
 								target='_blank'
 								rel='noopener noreferrer'
 							>

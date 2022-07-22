@@ -6,6 +6,7 @@
 	justify-content: space-between;
 	font-size: 1rem;
 	background-color: var(--bg);
+	align-items: center;
 }
 
 .footer_foundon_section {
